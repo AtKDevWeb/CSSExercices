@@ -8,12 +8,17 @@ main div {
      margin: 10px auto;
 }
 
+nav {
+    display: inline-flex;
+}
+
 li {
     list-style-type: none;
 }
 
 a {
     text-decoration:none;
+    display: inline;
 }
 a:hover {
     background-color: white;
